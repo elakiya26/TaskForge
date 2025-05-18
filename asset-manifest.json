@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/taskforge/static/css/main.623fde38.css",
+    "main.js": "/taskforge/static/js/main.3f1ade11.js",
+    "index.html": "/taskforge/index.html",
+    "main.623fde38.css.map": "/taskforge/static/css/main.623fde38.css.map",
+    "main.3f1ade11.js.map": "/taskforge/static/js/main.3f1ade11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.623fde38.css",
+    "static/js/main.3f1ade11.js"
+  ]
+}
