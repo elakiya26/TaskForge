@@ -1,20 +1,18 @@
-import React from 'react'
-
 import Newlistitem from './Newlistitem';
 
-const Itemslist = ({items,handlecheck,deletecheck}) => {
+const Itemslist = ({ items, handleCheck, handleDelete }) => {
     return (
-      <ul>
-    {items.map((item)=>( 
-      
-     <Newlistitem
-      item={item}
-      handlecheck={handlecheck}
-      deletecheck={deletecheck}
-     />
-     ))}
-     </ul>
-  )
+        <ul>
+            {items.map((item) => (
+                <Newlistitem
+                    key={item.id}
+                    item={item}
+                    handleCheck={handleCheck}
+                    handleDelete={handleDelete}
+                />
+            ))}
+        </ul>
+    )
 }
 
 export default Itemslist
